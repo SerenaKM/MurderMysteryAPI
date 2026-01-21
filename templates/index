@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Murder Mystery API</title>
+  </head>
+  <body>
+    <h1>Murder Mystery API</h1>
+    <img class="page-img" src=".searching.png" />
+    <a
+      href="https://www.flaticon.com/free-stickers/magnifying-glass"
+      title="magnifying glass stickers"
+      >Magnifying glass stickers created by Stickers - Flaticon</a
+    >
+  </body>
+</html>
