@@ -11,6 +11,6 @@ func SetupRoutes(app *app.Application) *chi.Mux {
 	r.Get("/cases/{id}", app.MysteryHandler.HandleGetMysteryByID)
 
 	r.Post("/cases", app.MysteryHandler.HandleCreateMystery)
-	r.Delete("/cases/{id}", app.MysteryHandler.HandleDeleteWorkout)
+	r.Delete("/cases/{id}", app.MysteryHandler.HandleDeleteCase)
 	return r
 }

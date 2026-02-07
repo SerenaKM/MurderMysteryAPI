@@ -61,7 +61,7 @@ func (mh *MysteryHandler) HandleCreateMystery(w http.ResponseWriter, r *http.Req
 	utils.WriteJSON(w, http.StatusCreated, utils.Envelope{"Case": createdCase})
 }
 
-func (mh *MysteryHandler) HandleDeleteWorkout (w http.ResponseWriter, r *http.Request) {
+func (mh *MysteryHandler) HandleDeleteCase (w http.ResponseWriter, r *http.Request) {
 	mysteryID, err := utils.ReadIDParam(r)
 	if err != nil {
 		mh.logger.Printf("ERROR: readIDParam: %v", err)
